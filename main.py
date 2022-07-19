@@ -22,28 +22,3 @@ if st.button('実行'):
 else:
     st.write('実行する場合はボタンを押してください')
 
-
-# option = st.selectbox(
-#     'あなたが好きな数字を教えてください',
-#     list(range(1,11))
-# )
-
-# st.write(option)
-
-# if st.checkbox("Show Image"):
-#     img = Image.open("greenimage.png")
-#     st.image(img, use_column_width=True)
-
-# df = pd.DataFrame(
-#     np.random.rand(100,2)/[50,50] + [35.69, 139.70],
-#     columns=['lat','lon']
-# )
-# st.map(df)
-
-# '''
-
-# # 見出し１
-# ## 見出し２
-# ### 見出し３
-
-# '''
